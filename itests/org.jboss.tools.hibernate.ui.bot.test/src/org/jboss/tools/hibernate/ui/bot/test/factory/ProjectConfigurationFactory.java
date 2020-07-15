@@ -212,8 +212,10 @@ public class ProjectConfigurationFactory {
 			new NextButton().click();
 		}
 		DefaultGroup group = new DefaultGroup("Platform");
-				
+		
 		new DefaultCombo(group).setSelection("Hibernate (JPA " + jpaVersion + ")");
+		
+		//new DefaultCombo(group).setSelection("Generic " + jpaVersion);
 		
 		
 		new LabeledCombo("Type:").setSelection("Disable Library Configuration");

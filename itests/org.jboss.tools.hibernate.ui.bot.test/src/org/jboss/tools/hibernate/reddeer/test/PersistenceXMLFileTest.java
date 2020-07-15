@@ -67,7 +67,8 @@ public class PersistenceXMLFileTest extends HibernateRedDeerTest {
 		return Arrays.asList(new Object[][] { 
 			{ "ecl-jpa10" },
 			{ "ecl-jpa20" },
-			{ "ecl-jpa21" }
+			{ "ecl-jpa21" },
+			{ "ecl-jpa22" }
 		});
 	}
 
@@ -101,7 +102,8 @@ public class PersistenceXMLFileTest extends HibernateRedDeerTest {
 			Shell s = new DefaultShell("Modify Faceted Project");
 			new NextButton(s).click();
 			JpaFacetInstallPage installPage = new JpaFacetInstallPage(s);
-			installPage.setPlatform("Hibernate (JPA 2.1)");
+			//installPage.setPlatform("Hibernate (JPA 2.1)");
+			installPage.setPlatform("Generic 2.2");
 			installPage.setJpaImplementation("Disable Library Configuration");
 			new OkButton(s).click();
 			new WaitWhile(new ShellIsAvailable(s));
