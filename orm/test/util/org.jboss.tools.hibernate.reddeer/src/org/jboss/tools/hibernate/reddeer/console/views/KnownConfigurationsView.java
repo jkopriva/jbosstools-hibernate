@@ -74,6 +74,7 @@ public class KnownConfigurationsView extends WorkbenchView {
 	public EditConfigurationShell openConsoleConfiguration(String name) {
 		selectConsole(name);
 		String title = "Edit Configuration";
+		this.activate();
 		new ContextMenuItem(title).select();
 		return new EditConfigurationShell();
 	}
