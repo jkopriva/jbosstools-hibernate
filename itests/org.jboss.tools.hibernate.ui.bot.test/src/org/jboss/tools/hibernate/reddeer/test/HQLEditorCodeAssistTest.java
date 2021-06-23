@@ -104,9 +104,9 @@ public class HQLEditorCodeAssistTest extends HibernateRedDeerTest {
 		mainPage.setHibernateVersion(hbVersion);		
 		confShell.ok();
 				
-		v.open();		
+		v.open();
 		v.selectConsole(prj);
-		new ContextMenuItem("HQL Editor").select();
+		new ContextMenuItem(v.getConsole(prj), "HQL Editor").select();
 				
 		HQLEditor hqlEditor = new HQLEditor(prj);
 		hqlEditor.setText("from ");

@@ -40,32 +40,32 @@ import org.junit.runners.Suite;
 
 @RunWith(RedDeerSuite.class)
 @Suite.SuiteClasses({
-	
-	AntFileExportTest.class,
-	CodeGenerationConfigurationTest.class,
-	CodeGenerationKeyWordsTest.class,
-	ConnectionProfileTest.class,
-	ConsoleConfigurationFileTest.class,
-	ConsoleConfigurationTest.class,
-	CreateJPAProjectTest.class,
-	CriteriaEditorTest.class,
-	CriteriaEditorCodeAssistTest.class,
-	EntityValidationTest.class,
-	JPADetailsViewTest.class,
-	HibernateUIPartsTest.class,
-	JPAEntityGenerationTest.class,
-	
-	JPAFacetTest.class,
+//	
+//	AntFileExportTest.class,
+//	CodeGenerationConfigurationTest.class,
+//	CodeGenerationKeyWordsTest.class,
+//	ConnectionProfileTest.class,
+//	ConsoleConfigurationFileTest.class,
+//	ConsoleConfigurationTest.class,
+//	CreateJPAProjectTest.class,
+//	CriteriaEditorTest.class,
+//	CriteriaEditorCodeAssistTest.class,
+//	EntityValidationTest.class,
+//	JPADetailsViewTest.class,
+//	HibernateUIPartsTest.class,
+//	JPAEntityGenerationTest.class,
+//	
+//	JPAFacetTest.class,
 	JPAUIPartsTest.class,
 	HQLEditorTest.class,
-	HQLEditorCodeAssistTest.class,
-	JBossDatasourceTest.class,
-	JpaAnnotationGenerationTest.class, 
-	MappingDiagramTest.class,
-	MappingFileTest.class,
-	PersistenceXMLFileTest.class, 
-	RevengFileTest.class,
-	TablesFromJPAEntitiesGeneration.class	
+//	HQLEditorCodeAssistTest.class,
+//	JBossDatasourceTest.class,
+//	JpaAnnotationGenerationTest.class, 
+//	MappingDiagramTest.class,
+//	MappingFileTest.class,
+//	PersistenceXMLFileTest.class, 
+//	RevengFileTest.class,
+//	TablesFromJPAEntitiesGeneration.class	
 
 })
 public class HibernateAllTest {
